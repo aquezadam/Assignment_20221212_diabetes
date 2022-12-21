@@ -81,9 +81,6 @@ plot_three = px.scatter(diabetes_df_focus, "Age","Pregnancies", color="Outcome",
 
 #   • • •  ASSIGNMENT DAY 14
 #          3.) Try out the missing value and outlier detection on diabetes dataset [optional]
-# Write a function to check outlier for each column. Remove outliers.
-# Write a function to substitute null values with the mean/median
-# write a function to pritn the head of the processed DF
 print("PROCESSING INSULIN COLUMN")
 min_insulin = diabetes_df["Insulin"].min()
 max_insulin = diabetes_df["Insulin"].max()
